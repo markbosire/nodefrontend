@@ -1,0 +1,23 @@
+.navbar-custom {
+  background-color: transparent !important;
+}
+.login-button {
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #7f2cf6;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #5d0d0f;
+}
+
+
+.navbar-divider {
+  opacity: 1;
+ /* Adjust border color and style as desired */
+  width: 100%; /* Make the line span the entire width */
+  margin: 0 auto; /* Center the line horizontally */
+}

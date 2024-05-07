@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #fff;
+ 
+}
+.LP{
+  background: linear-gradient(to top, #fff 50%, #e9d2fc);
+}
+
+/* Scrollbar Customization */
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.btnSignIn{
+  background-color: #8300e7!important;
+}
+.linkSign{
+  color: #8300e7!important;
+  text-decoration-color: #8300e7!important;
+}
+.linkSign:hover{
+  color: #520204!important;
+  text-decoration-color: #520204!important;
+}
+.btnSignIn:hover{
+  background-color: #520204!important;
+}
+.gcard a{
+  text-decoration: none;
+  color: #8300e7;
+  font-size: 1.2em;
+}
+.btnGame{
+  background-color: #8300e7 !important;
+  color: #fff!important;
+  border: 1px solid #000 !important;
+}
+.navbar-admin .MuiInputBase-root {
+  width: 200px!important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  padding-left: 3px !important;
+  color: #000 !important;
+ 
+}
+.navbar-admin .MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  padding: 2.5px 4px 6px 4px !important;
+}
+.navbar-admin .MuiInputLabel-root{
+  color: #000 !important;
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+.spanBtn:hover{
+  text-decoration: underline !important;
+}
+.card-title{
+  max-height: 1.5rem; /* Adjust the height as needed */
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.game-info h1 {
+  max-height: 2.85rem; /* Adjust the height as needed */
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+@media screen and (max-width: 991px){
+#basic-navbar-nav span{
+  margin: 0 !important;
+}
+#basic-navbar-nav span{
+gap: 5px !important;
+}
+
+}
+.filters h3{
+  display: flex;
+  justify-content: space-between;
+}
+.filters hr{
+  color: #000;
+ 
+  border-top: 2x solid black;
+}
+.selected-option{
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.ass {
+ 
+  min-height: 3lh;
+  color: #333;
+}
+.assid{
+  color: #000;
+}
+.active{
+  border-bottom: 2px solid #000;
+}
+.sellBtn{
+  background-color: #8300e7;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.removeBtn{
+  background-color: #f00;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.sales p{
+  margin-bottom: 7.5px;
+}
+.modal-content{
+  border-radius: 0;
+  border: 2px solid #000;
+}
+.modal-content button{
+  border-radius: 0;
+  border: 2px solid #000;
+}
+.modal-header, .modal-footer{
+  border: 0;
+}
+.modal-content .btn-close{
+  border: 0;
+}

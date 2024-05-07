@@ -1,0 +1,30 @@
+.filter-dropdown .filter-dropdown-toggle {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    width: 100%;
+    
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .filter-dropdown .filter-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+  
+  .filter-dropdown-item {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .filter-dropdown-item:hover {
+    background-color: #333;
+  }
